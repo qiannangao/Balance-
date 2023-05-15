@@ -1,0 +1,418 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.box{
+    height: 106px;
+}
+/* logo */
+.logo{
+    position: absolute;
+    top: 32px;
+    left: 42px;
+    width: 90px;
+    height: 46px;
+}
+/* 头部 */
+.banxin{
+    position: relative;
+    width: 1200px;
+    height: 106px;
+    line-height: 106px;
+    margin: 0 auto;
+}
+.banxin a{
+font-size: 18px;
+color: #666;
+}
+.left-a{
+    float: left;
+    height: 106px;
+}
+.shouye{
+    margin-right: 60px;
+}
+.nvzhuang{
+    margin-right: 60px;
+}
+.nanzhuang{
+   margin-right: 60px;
+}
+.bag{
+    margin-right: 60px;
+}
+/* .shouye{
+    margin-right: 50px;
+    font-weight: 600;
+} */
+/* .nvzhuang{
+    margin-right: 50px;
+    font-size: 18px;
+
+} */
+/* .nanzhuang{
+    margin-right: 50px;
+    font-size: 18px;
+
+} */
+/* .bag{
+    margin-right: 50px;
+    font-size: 18px;
+
+} */
+/* .peizhi{
+    margin-right: 50px;
+    font-size: 18px;
+
+} */
+/* 搜索框 */
+.sousuokuang{
+    width: 300px;
+    height: 48px;
+    border: 1px solid rgba(189,189,189,1);
+    border-radius: 27.5px;
+    font-size: 16px; 
+    position: absolute; 
+    top: 26px;
+    right: 283px;
+}
+.content{
+    display: inline-block;
+    font-size: 16px;
+    color: #afafaf;
+   position:absolute;
+   top: -30px;
+   left: 18px;
+}
+.sousuo{
+    width: 20px;
+    position: absolute;
+    top: 14px;
+    right: 20px;
+}
+/* 右边图标 */
+.right{
+    float: right;
+}
+
+.like{
+    width: 21px;
+    height: 21px;
+  margin-right: 43px;
+  margin-left: 92px;
+}
+.shoppingcar{
+    width: 21px;
+    height: 21px;
+    margin-right: 43px;
+}
+.me{
+width: 20px;
+height: 22px;
+
+}
+/* 标题 */
+.title-banxin{
+    height: 130px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.title1{
+    color: #333;
+    font-size: 36px;
+    font-weight: 400;
+}
+.left{
+    width: 14px;
+    height: 27px;
+    margin: 0 18px;
+}
+.title2{
+    color: #333;
+    font-size: 36px;
+    font-weight: 600;
+}
+/* 商品 */
+.classify{
+    width: 1200px;
+    margin: 0 auto;
+}
+/* .commodity{
+    position: relative;
+    width: 345px;
+    height: 465px;
+}
+.img1{
+    width: 345px;
+    height: 345px;
+    margin-bottom: 24px;
+
+}
+.introduce{
+    font-size: 16px;
+    color: #333;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+.price{
+    margin-top: 16px;
+    color: #CE0404;
+}
+.commodity-like{
+    width: 21px;
+    height: 20px;
+    float: left;
+    margin-top: -14px;
+    margin-left: 270px;
+}
+.commodity-car{
+    width: 21px;
+    height: 21px;
+    float: right;
+    margin-top: -14px;
+    margin-right: 0px;
+}
+/* 第二个 */
+/* .commodity1{
+    position: relative;
+    top: -467px;
+    left: 427px;
+    width: 345px;
+    height: 465px;
+}
+.img1{
+    width: 345px;
+    height: 345px;
+    margin-bottom: 24px;
+
+}
+.introduce{
+    font-size: 16px;
+    color: #333;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+.price{
+    margin-top: 16px;
+    color: #CE0404;
+}
+.commodity1-like{
+    width: 21px;
+    height: 20px;
+    float: left;
+    margin-top: -14px;
+    margin-left: 270px;
+}
+.commodity1-car{
+    width: 21px;
+    height: 21px;
+    float: right;
+    margin-top: -14px;
+    margin-right: 0px;
+}
+/* 第三个 */
+/* .commodity2{
+    position: relative;
+    top: -934px;
+    left: 860px;
+    width: 345px;
+    height: 465px;
+}
+.img1{
+    width: 345px;
+    height: 345px;
+    margin-bottom: 24px;
+
+}
+.introduce{
+    font-size: 16px;
+    color: #333;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+.price{
+    margin-top: 16px;
+    color: #CE0404;
+}
+.commodity2-like{
+    width: 21px;
+    height: 20px;
+    float: left;
+    margin-top: -14px;
+    margin-left: 270px;
+}
+.commodity2-car{
+    width: 21px;
+    height: 21px;
+    float: right;
+    margin-top: -14px;
+    margin-right: 0px;
+}  */
+.classify{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+.commodity{
+        width: 345px;
+        height: 465px;
+        margin-bottom: 30px;
+    }
+    .img1{
+        width: 345px;
+        height: 345px;
+        margin-bottom: 24px;
+    
+    }
+    .introduce{
+        font-size: 16px;
+        color: #333;
+        font-weight: 400;
+        margin-bottom: 8px;
+    }
+    .price{
+        margin-top: 16px;
+        color: #CE0404;
+    }
+    .commodity-like{
+        width: 21px;
+        height: 20px;
+        float: left;
+        margin-top: -14px;
+        margin-left: 270px;
+    }
+    .commodity-car{
+        width: 21px;
+        height: 21px;
+        float: right;
+        margin-top: -14px;
+        margin-right: 0px;
+    }
+    /* 底部 */
+    .bottom{
+        width: 1200px;
+        height: 32px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .bottom-left{
+        width: 32px;
+height: 32px;
+display: inline-block;
+line-height: 32px;
+background: #FFFFFF;
+border: 1px solid rgba(221,221,221,1);
+border-radius: 6px;
+    }
+    .o1{
+        width: 7px;
+        width: 11px;
+    }
+    .there{
+        width: 20px;
+            height: 4px;
+display: inline-block;
+    }
+    .y1{
+        float: left;
+     width: 4px;
+     height: 4px;
+     border-radius: 50%;
+     margin-right: 4px;
+
+     background-color: #ddd;
+    }
+    .y2{
+        float: left;
+
+width: 4px;
+height: 4px;
+border-radius: 50%;
+background-color: #ddd;
+    }
+    .y3{
+        float: right;
+
+width: 4px;
+height: 4px;
+border-radius: 50%;
+background-color: #ddd;
+    }
+ .f1{
+    width: 32px;
+height: 32px;
+display: inline-block;
+line-height: 32px;
+background: #FFFFFF;
+border: 1px solid rgba(221,221,221,1);
+border-radius: 6px;
+ }
+ .f4{
+    width: 32px;
+height: 32px;
+display: inline-block;
+line-height: 32px;
+background: #FFFFFF;
+border: 1px solid rgba(221,221,221,1);
+border-radius: 6px;
+ }
+ .f5{
+    width: 32px;
+height: 32px;
+display: inline-block;
+line-height: 32px;
+background: #FFFFFF;
+border: 1px solid rgba(221,221,221,1);
+border-radius: 6px;
+ }
+ .f6{
+    width: 32px;
+height: 32px;
+display: inline-block;
+line-height: 32px;
+color: #fff;
+background: #333;
+border: 1px solid rgba(221,221,221,1);
+border-radius: 6px;
+ }
+ .f7{
+    width: 32px;
+height: 32px;
+display: inline-block;
+line-height: 32px;
+background: #FFFFFF;
+border: 1px solid rgba(221,221,221,1);
+border-radius: 6px;
+ }
+ .f8{
+    width: 32px;
+height: 32px;
+display: inline-block;
+line-height: 32px;
+background: #FFFFFF;
+border: 1px solid rgba(221,221,221,1);
+border-radius: 6px;
+ }
+ 
+ .f50{
+    width: 32px;
+height: 32px;
+display: inline-block;
+line-height: 32px;
+background: #FFFFFF;
+border: 1px solid rgba(221,221,221,1);
+border-radius: 6px;
+ }
+ .bottom-right{
+    width: 32px;
+height: 32px;
+display: inline-block;
+line-height: 32px;
+background: #FFFFFF;
+border: 1px solid rgba(221,221,221,1);
+border-radius: 6px;
+ }

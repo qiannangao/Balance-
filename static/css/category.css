@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.head-picture{
+    width: 100%;
+    height: 106px;
+    margin-bottom: 50px;
+}
+.picture-1 img{
+width: 90px;
+height: 46px;
+float: left;
+margin-top: 32px;
+margin-left: 30px;
+}
+.head-type{
+    width: 1200px;
+    height: 106px;
+    margin: 0 auto;
+    /* background-color: aqua; */
+    position: relative;
+}
+.head-text .head-text-thick a{
+     display: inline-block;
+     color: #333;
+     line-height: 106px;
+     margin-right:60px;
+    }
+.head-text li{
+    float: left;
+}
+.head-text .head-text-thick:hover{
+    font-weight: 700;
+}
+.search{
+    float: right;
+    position: relative;
+}
+    
+.search-text{
+    height: 46px;
+    width: 338px;
+   border:1px solid  #bdbdbd;
+   margin-top: 33px;
+   margin-right: 280px;
+   border-radius:27.5px;
+   outline: none;
+   padding-left: 20px;
+}
+.search a img{
+    width: 20px;
+    height: 21px;
+    color: #bdbdbd;
+   position: absolute;
+    top: 47px;
+    right: 300px;
+}
+.box{
+   position: absolute;
+   right: 0;
+   top: 0;
+    width: 148px;
+    height: 106px;
+}
+.box-a-1 img{
+    width: 21px;
+    height: 20px;
+    margin: 10px;
+    margin-top: 47px;
+}   
+
+
+
+
+.cify {
+    display: flex;
+    width: 1200px;
+    height: 180px;
+    margin: 0 auto;
+    /* background-color: antiquewhite; */
+}
+
+.coat {
+    width: 600px;
+    height: 180px;
+    /* background-color: aqua; */
+}
+
+.surcoat {
+    width: 138px;
+    height: 33px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.clothes {
+    display: flex;
+}
+
+.clothes .clothing {
+    font-size: 10px;
+    color: #666666;
+    margin-top: 20px;
+}
+
+.clothes .down {
+    font-size: 10px;
+    color: #666666;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.clothes .jeans{
+    font-size: 10px;
+    color: #666666;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.shirt{
+    width: 600px;
+    height: 180px;
+    background-color:#666666;
+}
+.border{
+    width: 1200px;
+    height: 0px;
+    margin:0 auto;
+    border: 1px solid #D7D7D7;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+

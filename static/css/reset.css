@@ -1,0 +1,25 @@
+
+/* 清除浏览器默认样式 */
+* {
+    margin: 0 ;
+    padding: 0;
+    list-style: none;
+    text-decoration:none;
+    box-sizing: border-box;
+    color: #333;
+    outline: none;
+}
+
+/* 清除浮动 */
+.clear::before,
+.clear::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* 版心 */
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}

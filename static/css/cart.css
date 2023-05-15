@@ -1,0 +1,287 @@
+
+
+.top-container {
+    position: relative;
+    height: 106px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 7px 0px rgba(222,222,222,0.5);
+}
+
+
+.logo {
+    position: absolute;
+    left: 0;
+}
+
+.top-container  .logo img {
+    width: 90px;
+    height: 46px;
+    margin: 32px 38px 28px;
+}
+
+.top-container .left-bar .left-item {
+    float: left;
+    font-size: 16px;
+    line-height: 106px;
+}
+.top-container .left-bar .nav-link {
+    display: inline-block;
+    margin-left: 60px;
+    color: #666;
+    width: 36px;
+    height: 25px;
+}
+.top-container .left-bar .left-item:first-child a{
+    margin-left: 0;
+}
+.top-container .left-bar .nav-link:hover {
+    font-size: 18px;
+    color: #333;
+    font-weight: 600;
+}
+.top-container .cart {
+    position: relative;
+    float: right;
+    margin-top: 29px;
+    margin-right:62px;
+    width: 182px;
+    border: 1px solid #BDBDBD;
+    text-align: center;
+    border-radius: 27.5px;
+    color: #333;
+}
+.top-container .cart .cart-btn {
+    line-height: 48px;
+}
+.cart-box {
+    float: right;
+    /* display: inline-block; */
+    height: 106px;
+}
+.top-container .cart-box:hover .dropdown {
+    display: block;
+}
+/* 购物车下拉菜单 */
+.top-container .cart .dropdown {
+    display: none;
+    position: absolute;
+    top: 54px;
+    left: -149px;
+    padding: 10px 20px ;
+    width: 407px;
+    height: 539px;
+    background: #FFFFFF;
+    border: 1px solid rgba(189,189,189,1);
+    border-radius: 6px;
+    z-index: 999;
+}
+.cart .dropdown .dropdown-item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(240,240,240,1);
+    padding-bottom: 10px ;
+    margin-top: 15px;
+}
+.cart .dropdown .goods-img,
+.cart .dropdown img {
+    width: 84px;
+    height: 84px;
+}
+.cart .dropdown .goods-info {
+    width: 160px;
+    font-size: 14px;
+    text-align: left;
+}
+.cart .dropdown .goods-info .color-666 {
+    color: #666;
+    margin-top: 10px;
+}
+
+
+.cart .dropdown .goods-num {
+    width: 60px;
+    font-size: 14px;
+
+}
+.cart .dropdown .goods-num span {
+    display: inline-block;
+    margin-bottom: 40px;
+}
+.cart .dropdown .goods-num .delete {
+    display: inline-block;
+    width: 55px;
+    line-height: 24px;
+    border: 1px solid rgba(215,215,215,1);
+    border-radius: 2px;
+    font-size: 14px;
+}
+.cart .dropdown .bottom-info {
+    display: flex;
+    height: 66px;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart .dropdown .bottom-info a  {
+    display: inline-block;
+    width: 154px;
+    height: 32px;
+    background: #CE0404;
+    border-radius: 2px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.top-container .cart .message {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #CE0404;
+    font-size: 14px;
+    color: #FFFFFF;
+    border-radius: 50%;
+    line-height: 20px;
+    margin-left: 18px;
+}
+.top-container .set {
+    float: right;
+    width: 22px;
+    height: 21px;
+    margin-top: 42.5px;
+}
+.top-container .set img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+  /*订单区  */
+  .order {
+    margin-top: 80px;
+  }
+  .order .order-header {
+    position: relative;
+  }
+  .order .title {
+    float: left;
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+  }
+  .order .search {
+    float: right;
+    margin-bottom: 24px;
+    width: 392px;
+    line-height: 48px;
+    padding-left: 34px;
+    border: 1px solid rgba(189,189,189,1);
+    border-radius: 27.5px;
+    font-size: 16px;
+    color: #AFAFAF;
+  }
+  .search-icon {
+    position: absolute;
+    top: 15px;
+    right: 28px;
+    width: 21px;
+    height: 22px;
+  }
+
+
+  /* 订单用户功能区 */
+  .order .user-act {
+    height: 288px;
+    background: #FFFFFF;
+    border: 1px solid rgba(215,215,215,1);
+    border-radius: 6px;
+    padding: 0 42px;
+  }
+  .user-act .user-list .user-item {
+    position: relative;
+    float: left;
+  }
+  .user-list .user-item a {
+    display: inline-block;
+    margin-top: 105px;
+    margin-right: 173px;
+    text-align: center;
+    font-size: 24px;
+  }
+  .user-list .user-item:last-child a {
+    margin-right: 0px;
+  }
+  .user-list .user-item img {
+    width: 54px;
+    height: 52px;
+    margin-bottom: 13px;
+  }
+    .user-list .take-over-goods::after,
+    .user-list .appraise::after {
+    content: '2';
+    position: absolute;
+    top: 97px;
+    left: 14px;
+    width: 20px;
+    line-height: 20px;
+    background-color: #CE0404;
+    text-align: center;
+    border-radius: 50%;
+    color: #FFFFFF;
+  }
+  .user-list .appraise::after {
+    content: '3';
+    left: 48px;
+  }
+
+
+  /* 购物车页面底部 */
+
+  .collect .collect-box:first-child {
+    margin-left: 0;
+  }
+  .collect .collect-box  {
+    float: left;
+    margin-left: 80px;
+  }
+
+  .collect .collect-box p {
+    margin: 60px 0 30px;
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+  }
+  .collect .collect-box .favorite {
+    position: relative;
+    margin-bottom: 114px;
+    width: 560px;
+    height: 288px;
+    background: #FFFFFF;
+    border: 1px solid rgba(215,215,215,1);
+    border-radius: 6px;
+  }
+  .collect-box .favorite a {
+        position: absolute;
+        top: 50%;
+        left: 101px;
+        transform: translateY(-50%);
+        height: 96px;
+        text-align: center;
+  }
+  .collect-box .favorite a:last-child {
+        right: -157px;
+  }
+  .collect-box .favorite span {
+    margin-bottom: 14px;
+    font-size: 36px;
+  }
+  .collect-box .favorite h4 {
+    font-size: 24px;
+    font-weight: 400;
+  }

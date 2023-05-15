@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.index{
+    width: 100%;
+    height: 114px;
+    background-color: blue;
+    
+}
+.picture{
+    width: 90px;
+    height: 46px;
+    /*margin: 39px 128px 29px 42px;*/
+    float: none;
+}
+.login{
+    width: 80px;
+    height: 28px;
+    font-size: 20px;
+    font-family: "PingFangSC-Regular";
+    color: #333;
+    float: none;
+}
+.number{
+    width: 100px;
+    height: 28px;
+    float: none;
+}
+.box{
+    width: 60px;
+    height: 28px;
+    float: none;
+}
